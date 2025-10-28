@@ -6,7 +6,7 @@ function promedioParesImpares() {
     let contPares = 0;
     let contImpares = 0;
 
-    // Recorrer la lista de números
+    // Recorrer la lista de números en un for 
     for (let i = 0; i < numeros.length; i++) {
         if (numeros[i] % 2 === 0) {
             sumaPares += numeros[i];
